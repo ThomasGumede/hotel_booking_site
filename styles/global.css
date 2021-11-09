@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+@layer components {
+  
+  .max-cont {
+    @apply max-w-4xl ml-4 mr-4 md:mr-auto md:ml-auto lg:max-w-7xl xxl:max-w-7xl;
+  }
+
+  .btn {
+        @apply py-2 px-6 bg-[#031430] font-medium text-white rounded-full text-base w-max transition-all duration-500 ease-in hover:shadow-xl hover:bg-white hover:text-[#031430]
+    }
+
+    .foodnavbtn {
+        @apply py-2 px-6 rounded-full md:text-lg border-2 border-[#031430] transition-all duration-500 ease-in hover:shadow-xl hover:bg-[#031430]
+    }
+
+
+    .btn2 {
+        @apply text-white rounded-full text-base border-2 border-[#031430] py-2 px-4 transition-all duration-500 ease-in hover:bg-[#031430]
+    }
+
+    .logo {
+        @apply font-bold text-2xl text-[#031430] font-sans
+    }
+
+    .navIcon {
+        @apply flex items-center justify-center w-[40px] h-[40px] text-gray-700 text-2xl home rounded-full transition-all duration-500 ease-in
+    }
+
+    .btnIcon {
+        @apply hidden sm:flex items-center justify-center w-[40px] h-[40px] text-gray-700 text-xl home rounded-full hover:bg-[#031430] transition-all duration-500 ease-in
+    }
+
+    .home {
+        @apply border-2 border-[#031430]
+    }
+
+    .hov {
+        @apply absolute left-0 bottom-0 w-0 h-[2px] bg-[#031430] rounded-full transition-all duration-300 ease-linear
+    }
+
+    .hov2 {
+        @apply absolute left-0 bottom-0 w-full h-[2px] bg-[#031430] rounded-full
+    }
+
+    .phone {
+        @apply fixed top-0 bg-[#031430] flex-col h-screen max-w-[400px] w-full pt-14 items-center transition-all duration-500 ease-linear
+    }
+
+    .tablet {
+        @apply flex-row relative max-w-none w-auto h-auto bg-transparent pt-0 left-auto
+    }
+}

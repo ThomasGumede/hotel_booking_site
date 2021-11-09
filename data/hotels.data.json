@@ -1,0 +1,153 @@
+[
+  {
+    "id": "1",
+    "location": "KwaZulu-Natal",
+    "description": "Empangeni",
+    "imgLocation": "/img/imgp1.jpg",
+    "hotels": [
+      {
+        "id": "1",
+        "name": "Umngeni Resort",
+        "place": "KwaZulu-Natal, Empangeni",
+        "bed": "3",
+        "bath": "2",
+        "price": 230,
+        "sqm": "50.5",
+        "img": "/img/h.jpg",
+        "otherImg": "/img/b1.jpg"
+      },
+      {
+        "id": "2",
+        "name": "Sisonke Hotel",
+        "place": "KwaZulu-Natal, Durban",
+        "bed": "5",
+        "bath": "2",
+        "price": 330,
+        "sqm": "70.5",
+        "img": "/img/h1.jpg",
+        "otherImg": "/img/b.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "location": "Western Cape",
+    "description": "Cape Town",
+    "imgLocation": "/img/imgp5.jpg",
+    "hotels": [
+      {
+        "id": "3",
+        "name": "WeWork Hotel",
+        "place": "Western Cape, Cape Town",
+        "bed": "2",
+        "bath": "2",
+        "price": 230,
+        "sqm": "40.5",
+        "img": "/img/h2.jpg",
+        "otherImg": "/img/img4.jpg"
+      },
+      {
+        "id": "4",
+        "name": "WeParty Hotel",
+        "place": "Western Cape, Cape Town",
+        "bed": "4",
+        "bath": "2",
+        "price": 300,
+        "sqm": "70.5",
+        "img": "/img/h3.jpg",
+        "otherImg": "/img/b3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "location": "KwaZulu-Natal",
+    "description": "Empangeni",
+    "imgLocation": "/img/imgp2.jpg",
+    "hotels": [
+      {
+        "id": "5",
+        "name": "WeWork Hotel",
+        "place": "Western Cape, Cape Town",
+        "bed": "2",
+        "bath": "2",
+        "price": 230,
+        "sqm": "40.5",
+        "img": "/img/h4.jpg",
+        "otherImg": "/img/b4.jpg"
+      },
+      {
+        "id": "6",
+        "name": "WeParty Hotel",
+        "place": "Western Cape, Cape Town",
+        "bed": "4",
+        "bath": "2",
+        "price": 300,
+        "sqm": "70.5",
+        "img": "/img/h5.jpg",
+        "otherImg": "/img/b5.jpg"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "location": "KwaZulu-Natal",
+    "description": "Empangeni",
+    "imgLocation": "/img/imgp3.jpg",
+    "hotels": [
+      {
+        "id": "7",
+        "name": "WeWork Hotel",
+        "place": "Western Cape, Cape Town",
+        "bed": "2",
+        "bath": "2",
+        "price": 230,
+        "sqm": "40.5",
+        "img": "/img/h7.jpg",
+        "otherImg": "/img/b7.jpg"
+          
+      },
+      {
+        "id": "11",
+        "name": "WeParty Hotel",
+        "place": "Western Cape, Cape Town",
+        "bed": "8",
+        "bath": "2",
+        "price": 300,
+        "sqm": "70.5",
+        "img": "/img/h8.jpg",
+        "otherImg": "/img/b6.jpg"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "location": "KwaZulu-Natal",
+    "description": "Empangeni",
+    "imgLocation": "img/imgp4.jpg",
+    "hotels": [
+      {
+        "id": "9",
+        "name": "WeWork Hotel",
+        "place": "Western Cape, Cape Town",
+        "bed": "2",
+        "bath": "2",
+        "price": 230,
+        "sqm": "40.5",
+        "img": "/img/h9.jpg",
+        "otherImg": "/img/b4.jpg"
+      },
+      {
+        "id": "10",
+        "name": "WeParty Hotel",
+        "place": "Western Cape, Cape Town",
+        "bed": "4",
+        "bath": "2",
+        "price": 300,
+        "sqm": "70.5",
+        "img": "/img/h10.jpg",
+        "otherImg": "/img/b7.jpg"
+      }
+    ]
+  }
+]
