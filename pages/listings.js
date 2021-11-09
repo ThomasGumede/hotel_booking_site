@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import HotelCard from "../components/SharedComponents/HotelCard";
+import HotelCard from "../components/HotelCard";
 import data from "../data/hotels.data";
 
 const Listings = () => {

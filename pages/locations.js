@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import ExploreCard from "../components/SharedComponents/ExploreCard";
+import ExploreCard from "../components/ExploreCard";
 import data from "../data/hotels.data";
 
 const Locations = () => {

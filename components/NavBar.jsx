@@ -3,9 +3,9 @@ import react, {useState, useEffect} from 'react'
 import { useRouter } from 'next/router';
 import Link from 'next/link'
 
-import NavItems from "./SharedComponents/NavItems";
-import Button from "./SharedComponents/Button";
-import Btn from "./SharedComponents/Btn";
+import NavItems from "./NavItems";
+import Button from "./Button";
+import Btn from "./Btn";
 import {CgMenuRight, CgMenuLeft} from 'react-icons/cg'
 
 function NavBar() {

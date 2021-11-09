@@ -1,6 +1,6 @@
 import React from 'react'
-import Btn from "./SharedComponents/Btn";
-import HotelCard from "./SharedComponents/HotelCard";
+import Btn from "./Btn";
+import HotelCard from "./HotelCard";
 
 const Destinations = () => {
     return (

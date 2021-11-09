@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "./SharedComponents/Button";
-import Btn from "./SharedComponents/Btn";
+import Button from "./Button";
+import Btn from "./Btn";
 
 const Hero = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import FooterCard from "./sharedComponents/FooterCard";
-import FooterItems from "./sharedComponents/FooterItems";
+import FooterCard from "./FooterCard";
+import FooterItems from "./FooterItems";
 import { BsArrowRightShort } from "react-icons/bs";
 import { FaYoutube, FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
 

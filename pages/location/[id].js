@@ -1,7 +1,7 @@
 import React from 'react'
 import data from "../../data/hotels.data";
 import Layout from "../../components/Layout";
-import HotelCard from "../../components/SharedComponents/HotelCard";
+import HotelCard from "../../components/HotelCard";
 
 const hotels_filter_by_location = ({ id }) => {
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
-import ExploreCard from "./SharedComponents/ExploreCard";
+import ExploreCard from "./ExploreCard";
 
-import Slider from './SharedComponents/Slider'
+import Slider from './Slider'
 
-import Btn from "./SharedComponents/Btn";
+import Btn from "./Btn";
 import data from "../data/hotels.data"
 
 const Explore = () => {
