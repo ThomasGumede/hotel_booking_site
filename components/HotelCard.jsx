@@ -5,7 +5,7 @@ import Link from "next/link";
 const HotelCard = ({ img, title, destination, sqm, bed, bath, price, shadow, id }) => {
   return (
     <div
-      className={`space-y-4 p-3 sm:w-[350px] md:w-[390px] lg:w-[400px] ${shadow} bg-white rounded-xl`}
+      className={`space-y-4 p-3 sm:w-[390px] md:w-[400px] ${shadow} bg-white rounded-xl`}
     >
       <img
         src={img}
