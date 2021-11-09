@@ -5,7 +5,7 @@ import Link from "next/link";
 const HotelCard = ({ img, title, destination, sqm, bed, bath, price, shadow, id }) => {
   return (
     <div
-      className={`space-y-4 p-3 sm:w-[390px] md:w-[400px] ${shadow} bg-white rounded-xl`}
+      className={`space-y-4 p-3 sm:w-[390px] md:w-[400px] h-full ${shadow} bg-white rounded-xl`}
     >
       <img
         src={img}
@@ -16,10 +16,10 @@ const HotelCard = ({ img, title, destination, sqm, bed, bath, price, shadow, id 
         <h1 className="font-bold text-xl md:text-3xl text-h1-color md:leading-relaxed">
           {title}
         </h1>
-        <p className="text-lg text-gray-500 font-regular leading-relaxed">
+        <p className="text-base md:text-lg text-gray-500 font-regular leading-relaxed">
           {destination}
         </p>
-        <div className="flex items-center w-full justify-between">
+        <div className="grid grid-cols-2 md:flex items-center w-full justify-between">
           <p className="text-sm flex items-center text-gray-500 font-regular leading-relaxed">
             <BiBed className="mr-3 text-lg" />
             {sqm} sqm
@@ -37,7 +37,7 @@ const HotelCard = ({ img, title, destination, sqm, bed, bath, price, shadow, id 
             R{price}{" "}
             <span className="text-gray-500 text-lg md:text-xl">/ night</span>
           </h1>
-          <div className="rounded-xl w-28 hover:shadow-2xl text-center border-2 border-solid border-btn-color hover:border-white bg-btn-color py-2 px-3 group hover:bg-white transition-all duration-3000">
+          <div className="rounded-xl w-28 hover:shadow-2xl text-center border-2 border-solid border-btn-color hover:border-white bg-btn-color py-1 px-2 md:py-2 md:px-3 group hover:bg-white transition-all duration-3000">
             <Link href={`/details/${encodeURIComponent(id)}`}>
               <a className="text-white text-sm font-regular group-hover:text-btn-color">
                 View room

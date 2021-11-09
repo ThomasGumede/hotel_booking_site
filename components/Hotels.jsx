@@ -11,7 +11,7 @@ const Hotels = () => {
 
 
   return (
-    <div className="px-2 md:max-cont space-y-6 md:space-y-8 flex flex-col mt-10 my-14 w-full h-screen">
+    <div className="px-2 md:max-cont space-y-6 md:space-y-8 flex flex-col mt-10 my-14 w-full h-screen mb-10">
       <div className="flex w-full items-center justify-between">
         <div className="space-y-4">
           <h1 className="font-bold text-2xl md:text-4xl text-h1-color md:leading-relaxed">
