@@ -7,7 +7,7 @@ import { FaYoutube, FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="space-y-4 m-12 relative bg-back-color">
+    <div className="space-y-4 m-12 relative bg-back-color mt-6">
       <div>
         <a href="/" className="logo">
           Exclusive BnB
@@ -16,7 +16,7 @@ const Footer = () => {
 
       <hr />
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 md:grid-cols-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:grid-cols-5">
         <div className="space-y-6">
           <h1 className="font-sans2 text-2xl text-gray-800">
             Join Our Newsletter
