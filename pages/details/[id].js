@@ -105,7 +105,7 @@ const HotelDetailsScreen = ({ id }) => {
               </div>
 
               <form
-                action="/"
+                action="/listings"
                 method="post"
                 className="space-y-5"
                 onSubmit={(e) => formSubmit(e)}
